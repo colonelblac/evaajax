@@ -745,15 +745,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('‼️ JOIN OUR COMMUNITY ‼️', url='https://t.me/filmcognito')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
-            ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('📺 JOIN FOR MOVIES 📺', url='https://t.me/filmcognitomoviesin')
+            ],[       
+            InlineKeyboardButton('🕹️ JOIN FOR LIVE STREAMS 🕹️ ',url='https://t.me/filmcognitolives1')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('✅ FOR PAID PROMOTIONS  ✅', url='https://t.me/colonelblackqwerty')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
